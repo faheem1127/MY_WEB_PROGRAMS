@@ -1,0 +1,202 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Set a nice font for the whole page */
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+/* Create a container for the content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav li a:hover {
+  color: #007bff;
+}
+
+/* Style the main content area */
+main {
+  padding: 20px;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Style buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add a subtle shadow effect on the elements */
+.container, header, nav, main {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Style the list */
+main ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+/* Style the containers for attack information */
+.attack-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  margin-left: 20%;margin-right: 20% ;
+  margin-bottom: 20px;
+}
+
+.attack-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.attack-description {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Style the malware list */
+.malware-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.malware-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.malware-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.malware-description {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Add more animation and transition effects */
+button, .attack-container, .malware-item {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+button:hover, .attack-container:hover, .malware-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+img{
+  padding: auto;
+  width:100%;
+  
+}
